@@ -49,12 +49,6 @@
                 }, {
                     token: "text",
                     regex: "\\s+"
-                }, {
-                    token: "paren.lparen",
-                    regex: "[IF]"
-                }, {
-                    token: "paren.rparen",
-                    regex: "[ENDIF]"
                 }]
             }, this.normalizeRules()
         };
