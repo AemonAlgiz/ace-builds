@@ -5,7 +5,7 @@
         s = function() {
             var e = "if|endif|else|or|and",
                 t = "use",
-                n = "near|with|around|mention",
+                n = "near|with|around|mention|all caps",
                 r = this.createKeywordMapper({
                     "string.regex": n,
                     keyword: e,
