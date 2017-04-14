@@ -4,7 +4,7 @@
         i = e("./text_highlight_rules").TextHighlightRules,
         s = function() {
             var e = "if|endif|else|or",
-                t = "regex",
+                t = "string.regex",
                 n = "near|with|around|mention",
                 r = this.createKeywordMapper({
                     "list": n,
