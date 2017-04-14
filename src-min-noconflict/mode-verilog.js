@@ -51,10 +51,10 @@
                     regex: "\\s+"
                 }, {
                     token: "paren.lparen",
-                    regex: "IF"
+                    regex: "[IF]"
                 }, {
                     token: "paren.rparen",
-                    regex: "ENDIF"
+                    regex: "[ENDIF]"
                 }]
             }, this.normalizeRules()
         };
