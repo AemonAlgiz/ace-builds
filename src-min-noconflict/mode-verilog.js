@@ -7,7 +7,7 @@
                 t = "use",
                 n = "near|with|around|mention",
                 r = this.createKeywordMapper({
-                    "support.function": n,
+                    "invalid": n,
                     keyword: e,
                     "constant.language": t
                 }, "identifier", !0);
