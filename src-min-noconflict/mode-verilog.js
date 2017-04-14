@@ -3,7 +3,7 @@
     var r = e("../lib/oop"),
         i = e("./text_highlight_rules").TextHighlightRules,
         s = function() {
-            var e = "if|endif|else\sif",
+            var e = "if|endif|^else\sif$",
                 t = "use",
                 n = "near|with|around|mention",
                 r = this.createKeywordMapper({
