@@ -3,7 +3,7 @@
     var r = e("../lib/oop"),
         i = e("./text_highlight_rules").TextHighlightRules,
         s = function() {
-            var e = "if|endif|^else\sif$",
+            var e = "if|endif|else|or",
                 t = "use",
                 n = "near|with|around|mention",
                 r = this.createKeywordMapper({
@@ -39,7 +39,7 @@
                     regex: "[a-zA-Z_$][a-zA-Z0-9_$]*\\b"
                 }, {
                     token: "keyword.operator",
-                    regex: "\\+|\\-|\\/|\\/\\/|%|<@>|@>|<@|&|\\^|~|<|>|<=|=>|==|!=|<>|=|or"
+                    regex: "\\+|\\-|\\/|\\/\\/|%|<@>|@>|<@|&|\\^|~|<|>|<=|=>|==|!=|<>|="
                 }, {
                     token: "paren.lparen",
                     regex: "[\\(]"
