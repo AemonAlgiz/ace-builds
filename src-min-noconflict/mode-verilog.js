@@ -50,10 +50,10 @@
                     token: "text",
                     regex: "\\s+"
                 }, {
-                    token: "if.start",
+                    token: "paren.lparen",
                     regex: "IF"
                 }, {
-                    token: "if.end",
+                    token: "paren.rparen",
                     regex: "ENDIF"
                 }]
             }, this.normalizeRules()
